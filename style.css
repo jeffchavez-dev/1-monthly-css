@@ -24,7 +24,7 @@ h1 {
     background-color: #000;
     height: 50vh;
     background-position: sticky;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 .footer_text {
