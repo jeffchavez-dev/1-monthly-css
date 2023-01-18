@@ -5,3 +5,11 @@
 h1 {
     color: #000;
 }
+
+.footer {
+    background-color: #000;
+}
+
+.footer_text {
+    color: #fff
+}
