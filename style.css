@@ -1,5 +1,12 @@
+*, ::before, ::after {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .home {
     background-color: #fff;
+    height: 100vh;
 }
 
 h1 {
@@ -8,6 +15,7 @@ h1 {
 
 .footer {
     background-color: #000;
+    height: 50vh;
 }
 
 .footer_text {
