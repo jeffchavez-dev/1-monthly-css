@@ -7,8 +7,15 @@
 .home {
     background-color: #fff;
     height: 100vh;
+    display: f;
 }
 
+.home, 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h1 {
     color: #000;
 }
