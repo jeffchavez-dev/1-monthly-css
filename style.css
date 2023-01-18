@@ -23,7 +23,7 @@ h1 {
 .footer {
     background-color: #000;
     height: 50vh;
-    background-position: sticky;
+    position: sticky;
     background-attachment: fixed;
 }
 
