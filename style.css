@@ -1,13 +1,14 @@
 *, ::before, ::after {
-    text-align: center;
+   
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 .home {
     background-color: #fff;
+    position: relative;
     height: 100vh;
-    display: f;
+    z-index: 1;
 }
 
 .home, 
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: ease-in-out 1s;
 }
 h1 {
     color: #000;
@@ -23,8 +25,12 @@ h1 {
 .footer {
     background-color: #000;
     height: 50vh;
-    position: sticky;
-    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    
 }
 
 .footer_text {
