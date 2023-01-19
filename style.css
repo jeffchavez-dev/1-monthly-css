@@ -11,8 +11,7 @@
     z-index: 5;
 }
 
-.home, 
-.footer {
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +22,15 @@ h1 {
 
 .footer {
     background-color: #000;
-    height: 50vh;    
+    height: 50vh;  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer_text {
-    color: blue;
+    color: #fff;
     font-size: 3em;
     position: fixed;
 
