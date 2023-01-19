@@ -8,7 +8,7 @@
     background-color: #fff;
     position: relative;
     height: 100vh;
-    z-index: 1;
+    z-index: 5;
 }
 
 .home, 
@@ -16,7 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: ease-in-out 1s;
 }
 h1 {
     color: #000;
@@ -24,15 +23,13 @@ h1 {
 
 .footer {
     background-color: #000;
-    height: 50vh;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: 9999;
-    
+    height: 50vh;    
 }
 
 .footer_text {
-    color: #fff
+    color: blue;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
 }
