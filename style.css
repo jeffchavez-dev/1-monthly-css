@@ -28,9 +28,8 @@ h1 {
 
 .footer_text {
     color: blue;
-    position: relative;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
+    position: fixed;
+
  
-    z-index: 2;
+    z-index: 10;
 }
