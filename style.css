@@ -3,12 +3,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    border: 2px red solid;
 }
 .home {
     background-color: #fff;
     position: relative;
     height: 100vh;
-    z-index: 5;
+    /* z-index: 5; */
 }
 
 .home {
@@ -22,7 +23,8 @@ h1 {
 
 .footer {
     background-color: #000;
-    height: 50vh;  
+    height: 100vh;  
+    top: 10;
     
     display: flex;
     justify-content: center;
@@ -30,10 +32,13 @@ h1 {
 }
 
 .footer_text {
+    position: fixed;
+    z-index: 1;
+    top: 10;
+}
+
+.footer_text .text {
     color: #fff;
     font-size: 3em;
-    position: fixed;
-
- 
-    z-index: 10;
+    z-index: 1;
 }
