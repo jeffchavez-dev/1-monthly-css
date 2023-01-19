@@ -22,8 +22,9 @@ h1 {
 }
 
 .footer {
+    position: relative;
     background-color: #000;
-    height: 100vh;  
+    height: 50vh;  
     top: 10;
     
     display: flex;
@@ -32,9 +33,12 @@ h1 {
 }
 
 .footer_text {
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    top: 10;
+    top: -100;
+    bottom: 100;
+    left: 100;
+    right: 100;
 }
 
 .footer_text .text {
